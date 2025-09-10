@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+   
+        
+            <nav>
+               <header class="navbar"> 
+                
+                <h1 class="nav-title">Profile</h1>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">My Profile</a></li>
+                    <li><a href="#">Find Connections</a></li>
+                </ul>
+                </header>
+                <button class="sign_out">Sign Out</button>
+                
+            </nav>
+        
+         <main>
+        <div class="left_side">
+            <article class="profile_card">
+                <header class="cover"></header>
+                <section class="card1">
+                    <img class="profile_pic"
+                        src="img/jane-m.jpg"
+                        alt="profile image">
+                    <h1 id="name">Jane Doe</h1>
+                    <div class="location">
+                        <img class="location_icon"
+                            src="img/map-marker.png">
+                        <p class="location_text"> Seattle</p>
+                    </div>
+                    <p class="description"> Developer | Engineer | Problem Solver
+                        Master of shadows and the Internet!
+                    </p>
+                    <footer class="footer">
+                        <img src="img/gear.png">
+                        <a href="#" onclick="changeName()">edit profile</a>
+                    </footer>
+
+                    </section>
+                </article>
+
+                <section class="education">
+                    <h1>Education</h1>
+                    <div class="edu_text">
+                    <h2>Coding Dojo-Fullstack bootcamp</h2>
+                    <p class="grey">Dec 2019 - Mar 2019</p>
+                    <p>Triple balck belt in Python</p>
+                    </div>
+                </section>
+            </div>
+
+
+
+
+            <div class="right_side">
+
+                <section class="requests">
+                    <h1><span id="requests">2</span>Connection Requests</h1>
+                    <div class="row" id="user1">
+                        <img class="icon"  src="img/adrien-s.jpg"
+                            alt="profile image">
+                        <h2>Todd E</h2>
+                        <img class="icon true" onclick="accept('user1','connections1','requests')" src="img/accept-circle.png"
+                            alt="profile image">
+                        <img class="icon"  onclick="removePic('user1','requests','requests')" src="img/close-circle.png"
+                            alt="profile image">
+                    </div>
+                     <div class="row" id="user2">
+                        <img class="icon"   src="img/alayne-s.jpg"
+                            alt="profile image">
+                        <h2>Jade T</h2>
+                        <img class="icon true" onclick="accept('user2','connections1','requests')" src="img/accept-circle.png"
+                            alt="profile image">
+                        <img class="icon" onclick="removePic('user2','requests')" src="img/close-circle.png"
+                            alt="profile image">
+                    </div>
+                </section>
+
+
+                <section class="connections">
+                    <h1><span id="connections1">500</span> Connections</h1>
+                     <div class="row">
+                        <img class="icon" src="img/anne-s.jpg"
+                            alt="profile image">
+                        <h2>Jack P</h2>
+                    </div>
+                     <div class="row">
+                        <img class="icon" src="img/arry-s.jpg"
+                            alt="profile image">
+                        <h2>Ann J</h2>
+                    </div>
+                     <div class="row">
+                        <img class="icon" src="img/phil-s.jpg"
+                            alt="profile image">
+                        <h2>Alyana D</h2>
+                    </div>
+                     <div class="row">
+                        <img class="icon" src="img/todd-s.jpg"
+                            alt="profile image">
+                        <h2>Arry K</h2>
+                    </div>
+                    <div class="line"></div>
+                    <a href="#">View More</a>                    
+                </section>
+
+             </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
