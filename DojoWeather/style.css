@@ -1,0 +1,110 @@
+body {
+    font-family: cursive;
+    font-size: larger;
+}
+
+
+nav {
+    background-color: rgb(118, 189, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+main {
+    padding: 0px 150px;
+}
+
+.sanjose {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.sanjose select {
+    height: 50px;
+    font-weight: bold;
+}
+
+.sanjose div {
+    display: flex;
+    gap: 20px;
+}
+
+
+hr {
+    height: 2px;
+    background-color: black;
+    margin-bottom: 30px 0px 0px 0px;
+
+}
+
+.days {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.day {
+    background-color: rgba(227, 227, 227, 0.871);
+    padding: 5px 40px;
+    justify-items: center;
+    width: 130px;
+}
+
+.nums {
+    display: flex;
+    gap: 20px;
+}
+
+.day img {
+    width: 100px;
+    height: inherit;
+    border-radius: 50%;
+}
+
+.max {
+    color: red;
+}
+
+.min {
+    color: rgb(0, 153, 255);
+}
+
+.cookie {
+    position: fixed;
+    bottom: 0;
+    left: 50;
+    display: flex;
+    background-color: rgba(227, 227, 227, 0.871);
+    border: 2px solid black;
+    padding: 20px 20px;
+    gap: 20px;
+    width: 900px;
+}
+
+.cookie img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.cookie button {
+    background-color: rgb(118, 189, 255);
+    width: 150px;
+    height: 40px;
+    justify-items: center;
+    box-shadow: 4px 4px 0px black;
+    font-weight: bold;
+    margin-top: 40px;
+}

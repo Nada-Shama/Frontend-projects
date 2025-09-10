@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DojoWeather</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <nav>
+            <h1>DojoWeather</h1>
+            <ul>
+                <li onclick="alert('Loading weather report...')">Burbank</li>
+                <li onclick="alert('Loading weather report...')">Chicago</li>
+                <li onclick="alert('Loading weather report...')">Dallas</li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="sanjose">
+                <h1>San Jose</h1>
+                <div>
+                    <p>show temprature in</p>
+                    <select id="temprature" onchange="temp(this)" >
+                        <option value="C" >C</option>
+                        <option value="F">F</option>
+                    </select>
+                </div>
+            </section>
+
+            <hr>
+
+            <section class="days">
+                <div class="day">
+                    <h2>Today</h2>
+                    <img src="https://files.cdn.thinkific.com/file_uploads/906206/attachments/3af/bd5/67a/some_rain.png">
+                    <p>some rain</p>
+                    <div class="nums">
+                        <h2 class="max" ><sapn class="red">24</sapn>°</h2>
+                        <h2  class="min" ><sapn class="blue">18</sapn>°</h2>
+                    </div>
+                </div>
+                <div class="day">
+                    <h2>Tomorrow</h2>
+                    <img src="https://files.cdn.thinkific.com/file_uploads/906206/attachments/f02/2e8/6ba/some_sun.png">
+                    <p>some sun</p>
+                    <div class="nums">
+                        <h2 class="max" ><sapn class="red">27</sapn>°</h2>
+                        <h2 class="min" ><sapn class="blue">19</sapn>°</h2>
+                    </div>
+                </div>
+                <div class="day">
+                    <h2>Friday</h2>
+                    <img src="https://files.cdn.thinkific.com/file_uploads/906206/attachments/c08/360/2bb/some_clouds.png">
+                    <p>some clouds</p>
+                    <div class="nums">
+                        <h2 class="max" ><sapn class="red">21</sapn>°</h2>
+                        <h2  class="min" ><sapn class="blue">16</sapn>°</h2>
+                    </div>
+                </div>
+                <div class="day">
+                    <h2>Saturday</h2>
+                    <img src="https://files.cdn.thinkific.com/file_uploads/906206/attachments/f02/2e8/6ba/some_sun.png">
+                    <p>some sun</p>
+                    <div class="nums">
+                        <h2 class="max" ><sapn class="red">26</sapn>°</h2>
+                        <h2  class="min" ><sapn class="blue">21</sapn>°</h2>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cookie">
+                <img src="https://files.cdn.thinkific.com/file_uploads/906206/attachments/6ef/c41/f01/cookie.png">
+                <div class="text">
+                    <h3>Stop! cookie time</h3>
+                    <p>We use cookies (sadlynot the edible ones)tp personlize content and ads, to provide social media features and to analyse our traffic <a href="#">Read more....</a></p>
+                </div>
+                <button onclick="accept('cookie')">I Accept</button>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>

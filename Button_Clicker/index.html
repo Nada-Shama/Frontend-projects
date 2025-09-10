@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <nav>
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search">
+            <button class="login" onclick="logOut(this)">Login</button>
+        </nav>
+        <div class="articals">
+        <article class="left_article">
+            <section class="ninja1">
+                <div class="left_div">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <p>pluarl: ninjas</p>
+                    <button class="likes" onclick="alert('ninja was liked')">13 likes</button>
+                </div>
+                <div class="right_div">
+                    <p>A parctitionar akilled in the
+                        <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                    </p>
+                </div>
+            </section>
+
+            <section class="ninja2">
+                <div class="left_div">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <p>pluarl: ninjas</p>
+                    <button class="likes" onclick="alert('ninja was liked')">37 likes</button>
+                </div>
+                <div class="right_div">
+                    <p>A <a href="#">programmer</a> who breaks
+                        down problems with <a href="#">zen-</a>like focus</p>
+                </div>
+            </section>
+        </article>
+        <article class="right_article">
+            <h1>Dojonary is defined by you</h1>
+            <button class="add" onclick="deleteContent(this)">Add Definition</button>
+        </article>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
