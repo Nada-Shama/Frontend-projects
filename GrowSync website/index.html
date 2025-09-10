@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrowSync</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onscroll="fixedNav()">
+    <nav>
+        <div class="leftNav">
+            <img src="img/logo.png" alt="The logo">
+            <h1>GrowSync</h1>
+        </div>
+        <div class="rightNav">
+            <a href="#">Home </a> <span>|</span>
+            <a href="#">About</a><span>|</span>
+            <a href="#">Services</a>
+        </div>
+
+    </nav>
+    <main>
+        <div class="header_bg">
+        <article class="header">
+            <section>
+                <div>
+                    <h1>We offer modern solutions for growing your bussines</h1>
+                    <p>We are teamof talented designers making websites</p>
+                </div>
+                <button onmouseover="overBackground(this)" onmouseout="outBackground(this)">Get started →</button>
+            </section>
+            <img src="img/hero-img.png" alt="The header image">
+        </article>
+        </div>
+        <div class="breakLine"></div>
+
+        <article class="About">
+            <section>
+                <h1>Who we are</h1>
+                <p id="text">We are a forward thinking company dedicated to providing innovatice solutions that fule bussineses
+                    grpwth
+                    with a focus on modern technologies and strategic insights, we help bussineses streamline their
+                    operations, enhance customers experiences, and sclae efficency. Wherther you are looking to improve
+                    your
+                    digital presence optimize processes or drive new revenue streams</p>
+                <button onclick="changSection()">Make a change</button>
+            </section>
+            <img src="img/about.jpg" alt="an image of our team">
+        </article>
+        <div class="breakLine"></div>
+
+        <article class="services">
+            <div class="title">
+                <h1> Our Services </h1>
+                <button onclick="addService()">Add services</button>
+                <span></span><span></span>
+            </div>
+            <section class="All_services">
+                <div class="service">
+                    <img src="img/values-2.png" alt="service value 1">
+                    <p>We provide modern technology-driven solutions towoard helping you adapt complete and thrive in an
+                        ever-evolving market</p>
+                </div>
+                <div class="service">
+                    <img src="img/values-1.png" alt="service value 2">
+                    <p>Whether you are a startup or an established enterprise we focus on <span id="red">scalable and
+                            flixable tools </span> that <span id="underline">support</span> growth at every stage</p>
+                </div>
+                <div class="service">
+                    <img src="img/values-3.png" alt="service value 3">
+                    <p>Our services are designed to meet the unique challanges of today while postpointing you for
+                        tomorrows
+                        opportunities</p>
+                </div><br>
+            </section>
+        </article>
+        <div class="breakLine"></div>
+
+        <article class='ourJob'>
+            <section>
+                <h1>What we do</h1>
+                <p>At our company innovative drives eveything we do, We spacilize in revelaging cutting-edge
+                    technologies
+                    and startigic experties to empower bussineses to grow smarter and faster. From enhancing digital
+                    experiences and optimising internal workflows to unlocking new revnew opportunities </p>
+                <button>Change Back</button>
+            </section>
+            <img src="img/alt-features.png" alt="Features image">
+        </article>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

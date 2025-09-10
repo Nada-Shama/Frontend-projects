@@ -1,0 +1,172 @@
+* {
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 255);
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {
+    color: #00328d;
+    font-size: 30px;
+}
+
+button {
+    background-color: #075af6;
+    color: white;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 5px 30px;
+    box-shadow: 3px 3px 0px rgb(146, 146, 146,0.5);
+}
+
+nav {
+    right: 0;
+    left: 0;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.leftNav {
+    display: flex;
+    gap: 20px;
+}
+
+.leftNav img {
+    width: 20px;
+    height: inherit;
+}
+
+.rightNav {
+    display: flex;
+    gap: 10px;
+}
+
+.header {
+    width: fit-content;
+    display: flex;
+    margin-top: 40px;
+    text-align: left;
+}
+.header_bg{
+        background-image: url('img/hero-bg.png');
+        width: 100%;
+}
+.header img{
+    height: 400px;
+    width: auto;
+}
+
+.header section div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.header section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.header section,
+.About section,
+.ourJob section {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.About {
+    display: flex;
+    align-items: center;
+
+}
+
+.About img {
+    width: 500px;
+    height: auto;
+}
+
+.About section {
+    background-color: white; 
+    padding:10px 15px 25px 10px;
+    gap: 10px;
+}
+
+.services .title {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 20px;
+    gap: 20px;
+}
+
+
+
+.service {
+    display: inline-block;
+    height: 300px;
+    margin: 5px;
+    width: 250px;
+    background-color: white;
+    padding: 30px 20px;
+}
+
+.service img {
+    width: 250px;
+    height: auto;
+}
+
+#red {
+    color: red;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+.ourJob {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.ourJob section {
+    height: 320px;
+    background-color: white;
+    border-radius: 2%;
+    padding: 10px 20px;
+
+}
+
+.ourJob img {
+    width: 400px;
+    height: 300px;
+}
+.ourJob section p{
+    text-align: center;
+    margin: 10px;
+}
+.ourJob section button{
+    margin-top: 30px;
+}
+.breakLine {
+    width: 900px;
+    height: 2px;
+    background-color: black;
+}
+
